@@ -6,7 +6,7 @@
             "age": 22,
             "photoUrl": "src/assets/photo/photo_etu_1.png",
             "birth_date": "2002-04-29",
-            "birth_place": "Ajaccio,Corsica",
+            "birth_place": "Ajaccio, Corsica",
             "strengths": [
                 "PHP",
                 "Laravel",
@@ -17,8 +17,8 @@
                 "I.A"
             ],
             "fun_fact": "Did you know that i went to Japan!!",
-            "description": "I'm a computer science student at the University of Paris. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
-            "team": "backend"
+            "description": "I am Pierlovisi Pascal, a 22-year-old fullstack developer from Ajaccio, Corsica. Born on April 29, 2002, I have strong skills in PHP, Laravel, and Python. However, I find frontend development and artificial intelligence challenging. A fun fact about me is that I have traveled to Japan!",
+            "team": "fullstack"
         },
         {
             "id": 2,
@@ -28,17 +28,14 @@
             "birth_date": "1996-01-01",
             "birth_place": "Djibouti",
             "strengths": [
-                "C++",
-                "Java",
-                "Python"
+                "Javascript",
+                "Java"
             ],
             "weaknesses": [
-                "JavaScript",
-                "PHP",
-                "Ruby"
+                "TBD"
             ],
-            "fun_fact": "I love playing the guitar and I'm a huge fan of the Beatles.",
-            "description": "I'm a computer science student at the University of Paris. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
+            "fun_fact": "Everyone calls me Ismael but my real name is Mohamed.",
+            "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "fullstack"
         },
         {
@@ -47,19 +44,15 @@
             "age": 24,
             "photoUrl": "src/assets/photo/photo_etu_3.png",
             "birth_date": "1996-01-01",
-            "birth_place": "Algeria",
+            "birth_place": "Béjaia, Algeria",
             "strengths": [
-                "C++",
-                "Java",
-                "Python"
+                "TBD"
             ],
             "weaknesses": [
-                "JavaScript",
-                "PHP",
-                "Ruby"
+                "TBD"
             ],
-            "fun_fact": "I love playing the guitar and I'm a huge fan of the Beatles.",
-            "description": "I'm a computer science student at the University of Paris. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
+            "fun_fact": "TBD",
+            "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "frontend"
         },
         {
@@ -70,18 +63,14 @@
             "birth_date": "1996-01-01",
             "birth_place": "Corsica",
             "strengths": [
-                "C++",
-                "Java",
-                "Python"
+                "TBD"
             ],
             "weaknesses": [
-                "JavaScript",
-                "PHP",
-                "Ruby"
+                "TBD"
             ],
-            "fun_fact": "I love playing the guitar and I'm a huge fan of the Beatles.",
-            "description": "I'm a computer science student at the University of Paris. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
-            "team": "backend"
+            "fun_fact": "TBD",
+            "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
+            "team": "frontend"
         },
         {
             "id": 5,
@@ -89,19 +78,18 @@
             "age": 23,
             "photoUrl": "src/assets/photo/photo_etu_5.png",
             "birth_date": "2001-06-01",
-            "birth_place": "France",
+            "birth_place": "Nice, France",
             "strengths": [
-                "C++",
-                "Java",
-                "Python"
+                "Javascript",
+                "React",
+                "Node.js"
             ],
             "weaknesses": [
-                "JavaScript",
-                "PHP",
-                "Ruby"
+                "C",
+                "Racket :)"
             ],
-            "fun_fact": "I love playing the guitar and I'm a huge fan of the Beatles.",
-            "description": "I'm a computer science student at the University of Paris. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
+            "fun_fact": "I am really good at league of legends",
+            "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "fullstack"
         },
         {
@@ -110,10 +98,10 @@
             "age": 24,
             "photoUrl": "src/assets/photo/photo_etu_6.png",
             "birth_date": "2000-11-28",
-            "birth_place": "Corsica",
+            "birth_place": "Porto-vecchio, Corsica",
             "strengths": [
-                "C++",
                 "Rust",
+                "C/C++",
                 "Python"
             ],
             "weaknesses": [
@@ -121,7 +109,7 @@
                 "CSS"
             ],
             "fun_fact": "I Love Puzzle and card games",
-            "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
+            "description": "",
             "team": "backend"
         },
         {
@@ -130,19 +118,17 @@
             "age": 23,
             "photoUrl": "src/assets/photo/photo_etu_7.png",
             "birth_date": "2001-08-09",
-            "birth_place": "France",
+            "birth_place": "Quimper, France",
             "strengths": [
-                "C++",
-                "Java",
-                "Python"
+                "Javascript",
+                "React",
+                "Node.js"
             ],
             "weaknesses": [
-                "JavaScript",
-                "PHP",
-                "Ruby"
+                "C"
             ],
-            "fun_fact": "I love playing the guitar and I'm a huge fan of the Beatles.",
-            "description": "I'm a computer science student at the University of Paris. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
+            "fun_fact": "I hope Thomas isn't bragging about his League of Legends skills in his bio!",
+            "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "frontend"
         },
         {
@@ -151,19 +137,17 @@
             "age": 22,
             "photoUrl": "src/assets/photo/photo_etu_8.png",
             "birth_date": "2002-03-11",
-            "birth_place": "Corsica",
+            "birth_place": "Ajaccio, Corsica",
             "strengths": [
-                "C++",
                 "Java",
-                "Python"
+                "Python",
+                "Game Development"
             ],
             "weaknesses": [
-                "JavaScript",
-                "PHP",
-                "Ruby"
+                "GODOT :)"
             ],
-            "fun_fact": "I love playing the guitar and I'm a huge fan of the Beatles.",
-            "description": "I'm a computer science student at the University of Paris. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
+            "fun_fact": "I am really good at league of legends (I'm Diamond IV, only in theory)",
+            "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "fullstack"
         },
         {
@@ -172,19 +156,17 @@
             "age": 24,
             "photoUrl": "src/assets/photo/photo_etu_9.png",
             "birth_date": "1996-01-01",
-            "birth_place": "Corsica",
+            "birth_place": "Ajaccio, Corsica",
             "strengths": [
-                "C++",
-                "Java",
+                "Javascript",
+                "Typescript",
                 "Python"
             ],
             "weaknesses": [
-                "JavaScript",
-                "PHP",
-                "Ruby"
+                "powerapps"
             ],
-            "fun_fact": "I love playing the guitar and I'm a huge fan of the Beatles.",
-            "description": "I'm a computer science student at the University of Paris. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
+            "fun_fact": "I hold American citizenship as my second nationality",
+            "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "backend"
         },
         {
@@ -193,20 +175,17 @@
             "age": 28,
             "photoUrl": "src/assets/photo/photo_etu_10.png",
             "birth_date": "1996-01-01",
-            "birth_place": "Paris",
+            "birth_place": "Corsica",
             "strengths": [
-                "C++",
                 "Java",
                 "Python"
             ],
             "weaknesses": [
-                "JavaScript",
-                "PHP",
-                "Ruby"
+                "unit test"
             ],
-            "fun_fact": "I love playing the guitar and I'm a huge fan of the Beatles.",
-            "description": "I'm a computer science student at the University of Paris. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
-            "team": "frontend"
+            "fun_fact": "I hate unit test! I hate unit test! I hate unit test!",
+            "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
+            "team": "backend"
         },
         {
             "id": 11,
@@ -214,19 +193,15 @@
             "age": 27,
             "photoUrl": "src/assets/photo/photo_etu_11.png",
             "birth_date": "1996-01-01",
-            "birth_place": "Paris",
+            "birth_place": "Corsica",
             "strengths": [
-                "C++",
-                "Java",
-                "Python"
+                "TBD"
             ],
             "weaknesses": [
-                "JavaScript",
-                "PHP",
-                "Ruby"
+                "TBD"
             ],
-            "fun_fact": "I love playing the guitar and I'm a huge fan of the Beatles.",
-            "description": "I'm a computer science student at the University of Paris. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
+            "fun_fact": "TDB",
+            "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "fullstack"
         },
         {
@@ -235,41 +210,35 @@
             "age": 23,
             "photoUrl": "src/assets/photo/photo_etu_12.png",
             "birth_date": "2001-08-31",
-            "birth_place": "Paris",
+            "birth_place": "Borgo, Corsica",
             "strengths": [
                 "C++",
-                "Java",
-                "Python"
+                "Rust",
+                "Java"
             ],
             "weaknesses": [
-                "JavaScript",
-                "PHP",
-                "Ruby"
+                "JavaScript"
             ],
-            "fun_fact": "I love playing the guitar and I'm a huge fan of the Beatles.",
-            "description": "I'm a computer science student at the University of Paris. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
+            "fun_fact": "Stop telling me how good i am at CSS, i already kwow it, but i hate it!",
+            "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "backend"
         },
         {
             "id": 13,
             "name": "Balzano Romain",
-            "age": 25,
+            "age": 23,
             "photoUrl": "src/assets/photo/photo_etu_13.png",
             "birth_date": "1996-01-01",
-            "birth_place": "Paris",
+            "birth_place": "Corsica",
             "strengths": [
-                "C++",
-                "Java",
-                "Python"
+                "TBD"
             ],
             "weaknesses": [
-                "JavaScript",
-                "PHP",
-                "Ruby"
+                "TBD"
             ],
-            "fun_fact": "I love playing the guitar and I'm a huge fan of the Beatles.",
-            "description": "I'm a computer science student at the University of Paris. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
-            "team": "frontend"
+            "fun_fact": "TDB",
+            "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
+            "team": "backend"
         },
         {
             "id": 14,
@@ -277,61 +246,53 @@
             "age": 23,
             "photoUrl": "src/assets/photo/photo_etu_14.png",
             "birth_date": "1996-01-01",
-            "birth_place": "Paris",
+            "birth_place": "Corsica",
             "strengths": [
-                "C++",
                 "Java",
-                "Python"
+                "PHP",
+                "C/C++"
             ],
             "weaknesses": [
-                "JavaScript",
-                "PHP",
-                "Ruby"
+                "TBD"
             ],
-            "fun_fact": "I love playing the guitar and I'm a huge fan of the Beatles.",
-            "description": "I'm a computer science student at the University of Paris. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
+            "fun_fact": "You won't find a student as serious as me in this class!",
+            "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "fullstack"
         },
         {
             "id": 15,
             "name": "Belarif Louiza",
-            "age": 26,
+            "age": 29,
             "photoUrl": "src/assets/photo/photo_etu_15.png",
-            "birth_date": "1996-01-01",
-            "birth_place": "Paris",
+            "birth_date": "1995-08-21",
+            "birth_place": "Algeriers , Algeria",
             "strengths": [
-                "C++",
-                "Java",
-                "Python"
+                "Python",
+                "machine learning",
+                "A.I"
             ],
             "weaknesses": [
-                "JavaScript",
-                "PHP",
-                "Ruby"
+                "TBD"
             ],
-            "fun_fact": "I love playing the guitar and I'm a huge fan of the Beatles.",
-            "description": "I'm a computer science student at the University of Paris. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
+            "fun_fact": "It's my second Master's degree in computer science",
+            "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "backend"
         },
         {
             "id": 16,
             "name": "Benameur Kaoutar",
-            "age": 28,
+            "age": 24,
             "photoUrl": "src/assets/photo/photo_etu_16.png",
-            "birth_date": "1996-01-01",
-            "birth_place": "Paris",
+            "birth_date": "1999-06-19",
+            "birth_place": "Alger, Algeria",
             "strengths": [
-                "C++",
-                "Java",
-                "Python"
+                "TBD"
             ],
             "weaknesses": [
-                "JavaScript",
-                "PHP",
-                "Ruby"
+                "TBD"
             ],
-            "fun_fact": "I love playing the guitar and I'm a huge fan of the Beatles.",
-            "description": "I'm a computer science student at the University of Paris. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
+            "fun_fact": "TDB",
+            "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "frontend"
         },
         {
@@ -340,61 +301,49 @@
             "age": 21,
             "photoUrl": "src/assets/photo/photo_etu_17.png",
             "birth_date": "1996-01-01",
-            "birth_place": "Paris",
+            "birth_place": "Lebanon",
             "strengths": [
-                "C++",
-                "Java",
-                "Python"
+                "TBD"
             ],
             "weaknesses": [
-                "JavaScript",
-                "PHP",
-                "Ruby"
+                "TBD"
             ],
-            "fun_fact": "I love playing the guitar and I'm a huge fan of the Beatles.",
-            "description": "I'm a computer science student at the University of Paris. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
+            "fun_fact": "In terms of strength, I'm unmatched!",
+            "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "fullstack"
         },
         {
             "id": 18,
             "name": "Renkas Vitalii",
-            "age": 29,
+            "age": 22,
             "photoUrl": "src/assets/photo/photo_etu_18.png",
             "birth_date": "1996-01-01",
-            "birth_place": "Paris",
+            "birth_place": "TBD",
             "strengths": [
-                "C++",
-                "Java",
-                "Python"
+                "TBD"
             ],
             "weaknesses": [
-                "JavaScript",
-                "PHP",
-                "Ruby"
+                "TBD"
             ],
-            "fun_fact": "I love playing the guitar and I'm a huge fan of the Beatles.",
-            "description": "I'm a computer science student at the University of Paris. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
+            "fun_fact": "I'm really good at poker, but i'm not a gambler, or am i?",
+            "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "backend"
         },
         {
             "id": 19,
             "name": "Piacentini Théo",
-            "age": 24,
+            "age": 22,
             "photoUrl": "src/assets/photo/photo_etu_19.png",
-            "birth_date": "1996-01-01",
-            "birth_place": "Paris",
+            "birth_date": "TBD",
+            "birth_place": "Corsica",
             "strengths": [
-                "C++",
-                "Java",
-                "Python"
+                "TBD"
             ],
             "weaknesses": [
-                "JavaScript",
-                "PHP",
-                "Ruby"
+                "TBD"
             ],
-            "fun_fact": "I love playing the guitar and I'm a huge fan of the Beatles.",
-            "description": "I'm a computer science student at the University of Paris. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
+            "fun_fact": "TDB",
+            "description": "TBD",
             "team": "frontend"
         },
         {
@@ -403,82 +352,70 @@
             "age": 21,
             "photoUrl": "src/assets/photo/photo_etu_20.png",
             "birth_date": "2003-04-24",
-            "birth_place": "France",
+            "birth_place": "Evreux, France",
             "strengths": [
-                "C++",
-                "Java",
+                "Powershell",
                 "Python"
             ],
             "weaknesses": [
-                "JavaScript",
-                "PHP",
-                "Ruby"
+                "TBD"
             ],
-            "fun_fact": "I love playing the guitar and I'm a huge fan of the Beatles.",
-            "description": "I'm a computer science student at the University of Paris. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
-            "team": "fullstack"
+            "fun_fact": "I'm a huge fan of American football",
+            "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
+            "team": "backend"
         },
         {
             "id": 21,
             "name": "Marchiselli Anthony",
-            "age": 22,
+            "age": 23,
             "photoUrl": "src/assets/photo/photo_etu_21.png",
-            "birth_date": "1996-01-01",
-            "birth_place": "Paris",
+            "birth_date": "2001-10-21",
+            "birth_place": "Ajaccio, Corsica",
             "strengths": [
-                "C++",
-                "Java",
-                "Python"
+                "TBD"
             ],
             "weaknesses": [
-                "JavaScript",
-                "PHP",
-                "Ruby"
+                "TBD"
             ],
-            "fun_fact": "I love playing the guitar and I'm a huge fan of the Beatles.",
-            "description": "I'm a computer science student at the University of Paris. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
-            "team": "backend"
+            "fun_fact": "I want to be the very best, like no one ever was!",
+            "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
+            "team": "frontend"
         },
         {
             "id": 22,
             "name": "Leculier Lucas",
-            "age": 25,
+            "age": 22,
             "photoUrl": "src/assets/photo/photo_etu_22.png",
-            "birth_date": "1996-01-01",
-            "birth_place": "Paris",
+            "birth_date": "2002-02-23",
+            "birth_place": "Bastia, Corsica",
             "strengths": [
-                "C++",
-                "Java",
+                "Javascript",
+                "PHP",
                 "Python"
             ],
             "weaknesses": [
-                "JavaScript",
-                "PHP",
-                "Ruby"
+                "L'ENT"
             ],
-            "fun_fact": "I love playing the guitar and I'm a huge fan of the Beatles.",
-            "description": "I'm a computer science student at the University of Paris. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
-            "team": "frontend"
+            "fun_fact": "I know the ENT isn't working, but that not my fault",
+            "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
+            "team": "fullstack"
         },
         {
             "id": 23,
             "name": "Kilimou Pouwèdéou",
-            "age": 23,
+            "age": 24,
             "photoUrl": "src/assets/photo/photo_etu_23.png",
-            "birth_date": "1996-01-01",
-            "birth_place": "Paris",
+            "birth_date": "2000-12-07",
+            "birth_place": "Lome, Togo",
             "strengths": [
-                "C++",
                 "Java",
-                "Python"
+                "Node.js"
             ],
             "weaknesses": [
-                "JavaScript",
-                "PHP",
-                "Ruby"
+                "TBD"
             ],
-            "fun_fact": "I love playing the guitar and I'm a huge fan of the Beatles.",
-            "description": "I'm a computer science student at the University of Paris. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
+            "fun_fact": "Even though I seem friendly, I am actually even friendlier!",
+            "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "fullstack"
         }
     ]

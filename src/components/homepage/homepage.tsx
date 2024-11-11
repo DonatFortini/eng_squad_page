@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Footer from "../footer";
 import Banner from "../banner";
-import ProfileCard from "./profileCard";
+import SquadGrid from "./squad-grid";
 
 interface Profile {
   id: number;
@@ -17,7 +17,7 @@ interface Profile {
   team: "fullstack" | "frontend" | "backend";
 }
 
-const Homepage: React.FC = () => {
+export default function Homepage() {
   const [profiles, setProfiles] = useState<Profile[]>([]);
 
   useEffect(() => {
@@ -38,18 +38,14 @@ const Homepage: React.FC = () => {
       <h2 className="text-3xl font-bold text-center mb-6 text-orange-800">
         {title} Team
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8 justify-items-center">
-        {teamProfiles.map((profile) => (
-          <ProfileCard key={profile.id} person={profile} />
-        ))}
-      </div>
+      <SquadGrid profiles={teamProfiles} />
     </section>
   );
 
   return (
-    <div className="min-h-screen w-full flex flex-col bg-gradient-to-b from-orange-100 to-orange-200">
+    <div className="min-h-screen w-full flex flex-col  bg-gradient-to-b from-orange-100 to-orange-200 ">
       <Banner />
-      <main className="flex-grow container mx-auto px-4 py-8">
+      <main className="flex-grow container mx-auto px-4 py-8 ">
         <h1 className="text-4xl font-bold text-center mb-12 text-orange-800">
           Our Programming Squad
         </h1>
@@ -60,6 +56,4 @@ const Homepage: React.FC = () => {
       <Footer />
     </div>
   );
-};
-
-export default Homepage;
+}

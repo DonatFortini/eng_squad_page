@@ -1,7 +1,10 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import Banner from "../banner";
 import Footer from "../footer";
+import ProfileHeader from "./profileHeader";
+import ProfileInfoCard from "./profileInfoCard";
+import ProfileSection from "./profileSection";
 
 interface Profile {
   id: number;
@@ -14,9 +17,10 @@ interface Profile {
   weaknesses: string[];
   fun_fact: string;
   description: string;
+  team: "fullstack" | "frontend" | "backend";
 }
 
-const Profile: React.FC = () => {
+export default function Profile() {
   const [person, setPerson] = useState<Profile | null>(null);
   const { id } = useParams<{ id: string }>();
   const [flagUrl, setFlagUrl] = useState<string>("");
@@ -62,7 +66,7 @@ const Profile: React.FC = () => {
   if (!person) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-orange-100 to-orange-200">
-        <div className="text-2xl font-bold text-orange-800">Loading...</div>
+        <div className="text-xl font-semibold text-orange-800">Loading...</div>
       </div>
     );
   }
@@ -70,99 +74,40 @@ const Profile: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-b from-orange-100 to-orange-200">
       <Banner />
-      <div className="flex-grow container mx-auto px-4 py-8">
-        <div className="bg-white shadow-2xl rounded-lg overflow-hidden max-w-4xl mx-auto">
-          <div className="relative h-96 overflow-hidden">
-            <img
-              src={"/" + person.photoUrl}
-              alt={person.name}
-              className="w-full h-full object-cover"
+      <main className="flex-grow container mx-auto px-4 py-10">
+        <div className="bg-white shadow-xl rounded-lg overflow-hidden max-w-4xl mx-auto">
+          <div className="md:flex">
+            <ProfileHeader
+              photoUrl={"/" + person.photoUrl}
+              name={person.name}
+              age={person.age}
+              birthPlace={person.birth_place}
+              flagUrl={flagUrl}
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
-            <div className="absolute bottom-0 left-0 right-0 p-6">
-              <h1 className="text-5xl font-bold text-white mb-2">
-                {person.name}
-              </h1>
-              <div className="flex items-center text-white">
-                <span className="text-2xl mr-4">Age: {person.age}</span>
-                <span className="text-xl flex items-center">
-                  From: {person.birth_place}
-                  <img
-                    src={flagUrl}
-                    alt={`${person.birth_place} flag`}
-                    className="inline-block ml-2"
-                    style={{
-                      width:
-                        person.birth_place.toLowerCase() === "corsica"
-                          ? "1em"
-                          : "16px",
-                      height:
-                        person.birth_place.toLowerCase() === "corsica"
-                          ? "1em"
-                          : "12px",
-                    }}
-                  />
-                </span>
-              </div>
+            <div className="md:w-1/2 p-8 space-y-8">
+              <ProfileInfoCard title="Team" content={person.team} />
+              <ProfileSection title="Strengths" items={person.strengths} />
+              <ProfileSection title="Weaknesses" items={person.weaknesses} />
             </div>
           </div>
-          <div className="p-6 space-y-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div>
-                <h2 className="text-2xl font-semibold mb-2 text-orange-800">
-                  Strengths
-                </h2>
-                {person.strengths && (
-                  <ul className="list-disc list-inside text-gray-700">
-                    {person.strengths.map((strength, index) => (
-                      <li key={index}>{strength}</li>
-                    ))}
-                  </ul>
-                )}
-              </div>
-              <div>
-                <h2 className="text-2xl font-semibold mb-2 text-orange-800">
-                  Weaknesses
-                </h2>
-                {person.weaknesses && (
-                  <ul className="list-disc list-inside text-gray-700">
-                    {person.weaknesses.map((weakness, index) => (
-                      <li key={index}>{weakness}</li>
-                    ))}
-                  </ul>
-                )}
-              </div>
-            </div>
-            <div>
-              <h2 className="text-2xl font-semibold mb-2 text-orange-800">
-                Fun Fact
-              </h2>
-              <p className="text-gray-700">{person.fun_fact}</p>
-            </div>
-            <div>
-              <h2 className="text-2xl font-semibold mb-2 text-orange-800">
-                Description
-              </h2>
-              <p className="text-gray-700">{person.description}</p>
-            </div>
-            <div>
-              <h2 className="text-2xl font-semibold mb-2 text-orange-800">
-                Born on
-              </h2>
-              <p className="text-gray-700">{person.birth_date}</p>
-            </div>
+          <div className="p-8 space-y-8 border-t border-gray-200">
+            <ProfileInfoCard title="Fun Fact" content={person.fun_fact} />
+            <ProfileInfoCard
+              title="Description"
+              content={person.description}
+              overflow={true}
+            />
+            <ProfileInfoCard title="Born on" content={person.birth_date} />
             <Link
               to="/"
-              className="inline-block bg-orange-500 text-white py-3 px-6 rounded-full hover:bg-orange-600 transition-colors text-lg font-semibold"
+              className="inline-block bg-orange-800 text-white py-4 px-8 rounded-full hover:bg-orange-600 transition-colors text-lg font-semibold"
             >
               Back to Squad Page
             </Link>
           </div>
         </div>
-      </div>
+      </main>
       <Footer />
     </div>
   );
-};
-
-export default Profile;
+}

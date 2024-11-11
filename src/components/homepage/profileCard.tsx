@@ -22,7 +22,7 @@ interface ProfileCardProps {
 const ProfileCard: React.FC<ProfileCardProps> = ({ person }) => {
   return (
     <Link to={`/profile/${person.id}`} className="block no-underline">
-      <div className="profile-card w-64 h-96 bg-gradient-to-b from-orange-400 to-orange-600 rounded-lg shadow-lg transition-all duration-300 transform hover:shadow-xl hover:scale-105">
+      <div className="profile-card w-64 h-96 bg-orange-800 rounded-lg shadow-lg transition-all duration-300 transform hover:shadow-xl hover:scale-105">
         <div className="relative h-[70%]">
           <img
             src={"/" + person.photoUrl}
