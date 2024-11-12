@@ -16,6 +16,7 @@
                 "Frontend",
                 "I.A"
             ],
+            "achievement": "TBD",
             "fun_fact": "Did you know that i went to Japan!!",
             "description": "I am Pierlovisi Pascal, a 22-year-old fullstack developer from Ajaccio, Corsica. Born on April 29, 2002, I have strong skills in PHP, Laravel, and Python. However, I find frontend development and artificial intelligence challenging. A fun fact about me is that I have traveled to Japan!",
             "team": "fullstack"
@@ -26,7 +27,7 @@
             "age": 22,
             "photoUrl": "src/assets/photo/photo_etu_2.png",
             "birth_date": "1996-01-01",
-            "birth_place": "Djibouti",
+            "birth_place": "Djibouti City, Djibouti",
             "strengths": [
                 "Javascript",
                 "Java"
@@ -34,6 +35,7 @@
             "weaknesses": [
                 "TBD"
             ],
+            "achievement": "TBD",
             "fun_fact": "Everyone calls me Ismael but my real name is Mohamed.",
             "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "fullstack"
@@ -51,6 +53,7 @@
             "weaknesses": [
                 "TBD"
             ],
+            "achievement": "TBD",
             "fun_fact": "TBD",
             "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "frontend"
@@ -68,6 +71,7 @@
             "weaknesses": [
                 "TBD"
             ],
+            "achievement": "TBD",
             "fun_fact": "TBD",
             "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "frontend"
@@ -88,6 +92,7 @@
                 "C",
                 "Racket :)"
             ],
+            "achievement": "TBD",
             "fun_fact": "I am really good at league of legends",
             "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "fullstack"
@@ -108,8 +113,9 @@
                 "Frontend",
                 "CSS"
             ],
-            "fun_fact": "I Love Puzzle and card games",
-            "description": "",
+            "achievement": "My application for the fire department of the city of Corte",
+            "fun_fact": "Since my first University year, i let most of my teachers mispronounce my name, just because i was too shy to correct them.",
+            "description": "I am a final-year computer science student at the University of Corsica with aspirations to pursue a PhD in simulation and Smart City engineering. My passion for both software and hardware development has been a driving force since childhood. I have always been fascinated by disassembling and reassembling electronic devices, a hobby that likely stems from my love for puzzles, much to my parents' frustration. In addition to my technical interests, I enjoy playing video and card games, although not as frequently as I used to. Currently, I work at the UMR LISA, a laboratory for economic and social sciences, where I strangely hold the position of an IT specialist focusing on smart cities and IoT development. This role, which I consider my second greatest achievement, provides me with immense satisfaction despite the occasional frustrations and the tedious task of writing emails. After my studies, I think that I will try to find a job remotely, as I want to expend my horizons in terms of programming and the fields of application in which I can work. Whether or not I pursue a PhD, I am enthusiastic about the future and the challenges it will bring.",
             "team": "backend"
         },
         {
@@ -127,6 +133,7 @@
             "weaknesses": [
                 "C"
             ],
+            "achievement": "TBD",
             "fun_fact": "I hope Thomas isn't bragging about his League of Legends skills in his bio!",
             "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "frontend"
@@ -146,6 +153,7 @@
             "weaknesses": [
                 "GODOT :)"
             ],
+            "achievement": "TBD",
             "fun_fact": "I am really good at league of legends (I'm Diamond IV, only in theory)",
             "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "fullstack"
@@ -165,6 +173,7 @@
             "weaknesses": [
                 "powerapps"
             ],
+            "achievement": "TBD",
             "fun_fact": "I hold American citizenship as my second nationality",
             "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "backend"
@@ -183,23 +192,25 @@
             "weaknesses": [
                 "unit test"
             ],
+            "achievement": "TBD",
             "fun_fact": "I hate unit test! I hate unit test! I hate unit test!",
             "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "backend"
         },
         {
             "id": 11,
-            "name": "Asta",
+            "name": "Amadhou Astadjam",
             "age": 27,
             "photoUrl": "src/assets/photo/photo_etu_11.png",
             "birth_date": "1996-01-01",
-            "birth_place": "Corsica",
+            "birth_place": "Cameroon",
             "strengths": [
                 "TBD"
             ],
             "weaknesses": [
                 "TBD"
             ],
+            "achievement": "TBD",
             "fun_fact": "TDB",
             "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "fullstack"
@@ -219,6 +230,7 @@
             "weaknesses": [
                 "JavaScript"
             ],
+            "achievement": "TBD",
             "fun_fact": "Stop telling me how good i am at CSS, i already kwow it, but i hate it!",
             "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "backend"
@@ -236,6 +248,7 @@
             "weaknesses": [
                 "TBD"
             ],
+            "achievement": "TBD",
             "fun_fact": "TDB",
             "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "backend"
@@ -255,6 +268,7 @@
             "weaknesses": [
                 "TBD"
             ],
+            "achievement": "TBD",
             "fun_fact": "You won't find a student as serious as me in this class!",
             "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "fullstack"
@@ -274,6 +288,7 @@
             "weaknesses": [
                 "TBD"
             ],
+            "achievement": "TBD",
             "fun_fact": "It's my second Master's degree in computer science",
             "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "backend"
@@ -291,6 +306,7 @@
             "weaknesses": [
                 "TBD"
             ],
+            "achievement": "TBD",
             "fun_fact": "TDB",
             "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "frontend"
@@ -308,6 +324,7 @@
             "weaknesses": [
                 "TBD"
             ],
+            "achievement": "TBD",
             "fun_fact": "In terms of strength, I'm unmatched!",
             "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "fullstack"
@@ -325,6 +342,7 @@
             "weaknesses": [
                 "TBD"
             ],
+            "achievement": "TBD",
             "fun_fact": "I'm really good at poker, but i'm not a gambler, or am i?",
             "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "backend"
@@ -332,16 +350,17 @@
         {
             "id": 19,
             "name": "Piacentini Théo",
-            "age": 22,
+            "age": -1,
             "photoUrl": "src/assets/photo/photo_etu_19.png",
             "birth_date": "TBD",
-            "birth_place": "Corsica",
+            "birth_place": "TBD",
             "strengths": [
                 "TBD"
             ],
             "weaknesses": [
                 "TBD"
             ],
+            "achievement": "TBD",
             "fun_fact": "TDB",
             "description": "TBD",
             "team": "frontend"
@@ -360,6 +379,7 @@
             "weaknesses": [
                 "TBD"
             ],
+            "achievement": "TBD",
             "fun_fact": "I'm a huge fan of American football",
             "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "backend"
@@ -377,6 +397,7 @@
             "weaknesses": [
                 "TBD"
             ],
+            "achievement": "TBD",
             "fun_fact": "I want to be the very best, like no one ever was!",
             "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "frontend"
@@ -396,6 +417,7 @@
             "weaknesses": [
                 "L'ENT"
             ],
+            "achievement": "TBD",
             "fun_fact": "I know the ENT isn't working, but that not my fault",
             "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "fullstack"
@@ -414,6 +436,7 @@
             "weaknesses": [
                 "TBD"
             ],
+            "achievement": "TBD",
             "fun_fact": "Even though I seem friendly, I am actually even friendlier!",
             "description": "I'm a computer science student at the University of Corsica. I'm passionate about programming and I'm always looking for new challenges. I'm currently looking for an internship in software development.",
             "team": "fullstack"
