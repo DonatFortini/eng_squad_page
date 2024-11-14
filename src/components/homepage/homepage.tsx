@@ -21,7 +21,7 @@ export default function Homepage() {
   const [profiles, setProfiles] = useState<Profile[]>([]);
 
   useEffect(() => {
-    fetch("/src/assets/db.json")
+    fetch("/eng_squad_M2/assets/db.json")
       .then((response) => response.json())
       .then((data) => setProfiles(data.profiles))
       .catch((error) => console.error("Error fetching profiles:", error));

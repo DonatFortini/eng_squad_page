@@ -26,16 +26,27 @@ export default function Profile() {
   const [flagUrl, setFlagUrl] = useState<string>("");
 
   useEffect(() => {
-    fetch("/src/assets/db.json")
-      .then((response) => response.json())
+    fetch("/eng_squad_M2/assets/db.json")
+      .then((response) => {
+        console.log("Response received:", response);
+        return response.json();
+      })
       .then((data) => {
+        console.log("Data parsed:", data);
         const profile = data.profiles.find(
           (p: Profile) => p.id === parseInt(id as string)
         );
+        console.log("Profile found:", profile);
         setPerson(profile);
         if (profile) {
-          getFlagEmoji(profile.birth_place).then(setFlagUrl);
+          getFlagEmoji(profile.birth_place).then((flagUrl) => {
+            console.log("Flag URL:", flagUrl);
+            setFlagUrl(flagUrl);
+          });
         }
+      })
+      .catch((error) => {
+        console.error("Error fetching data:", error);
       });
   }, [id]);
 
@@ -45,7 +56,7 @@ export default function Profile() {
       birthPlaceArray[birthPlaceArray.length - 1].trim().toLowerCase() ===
       "corsica"
     ) {
-      return "/src/assets/corsica.png";
+      return "/eng_squad_M2/assets/corsica.png";
     }
 
     const flagpath = await fetch("https://flagcdn.com/en/codes.json")

@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /eng_squad_M2
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.html [L]
