@@ -15,6 +15,7 @@ interface Profile {
   birth_place: string;
   strengths: string[];
   weaknesses: string[];
+  achievement: string;
   fun_fact: string;
   description: string;
   team: "fullstack" | "frontend" | "backend";
@@ -102,6 +103,10 @@ export default function Profile() {
             </div>
           </div>
           <div className="p-8 space-y-8 border-t border-gray-200">
+            <ProfileInfoCard
+              title="Greatest achievement"
+              content={person.achievement}
+            />
             <ProfileInfoCard title="Fun Fact" content={person.fun_fact} />
             <ProfileInfoCard
               title="Description"

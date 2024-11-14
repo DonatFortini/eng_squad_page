@@ -12,6 +12,7 @@ interface Profile {
   birth_place: string;
   strengths: string[];
   weaknesses: string[];
+  achievement: string;
   fun_fact: string;
   description: string;
   team: "fullstack" | "frontend" | "backend";
